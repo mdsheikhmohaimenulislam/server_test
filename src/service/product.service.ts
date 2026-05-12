@@ -6,6 +6,8 @@ const filePath = path.join(process.cwd(), "./src/dataBase/db.json");
 export const readProduct = () => {
   // console.log(process.cwd());
   // console.log(filePath);
-  const products = fs.readFileSync(filePath);
-  console.log(products.toString());
+  const products = fs.readFileSync(filePath, "utf-8");
+  //   console.log(products.toString());
+  // console.log(products);
+  return JSON.parse(products);
 };
