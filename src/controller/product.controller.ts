@@ -1,4 +1,5 @@
 import type { IncomingMessage, ServerResponse } from "http";
+import { readProduct } from "../service/product.service";
 
 export const productController = (
   req: IncomingMessage,
@@ -8,6 +9,7 @@ export const productController = (
   const method = req.method;
 
   if (url === "/product" && method === "GET") {
+    readProduct()
     res.writeHead(200, {
       "content-type": "application/json",
     });
