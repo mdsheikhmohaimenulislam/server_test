@@ -1,0 +1,42 @@
+[
+  {
+    "id": 101,
+    "username": "rahim123",
+    "location": "Rajshahi",
+    "city": "Naogaon",
+    "productName": "Wireless Mouse",
+    "price": 1200
+  },
+  {
+    "id": 102,
+    "username": "karim456",
+    "location": "Dhaka",
+    "city": "Mirpur",
+    "productName": "Keyboard",
+    "price": 1800
+  },
+  {
+    "id": 103,
+    "username": "sumaiya789",
+    "location": "Chattogram",
+    "city": "Agrabad",
+    "productName": "Headphone",
+    "price": 2500
+  },
+  {
+    "id": 104,
+    "username": "nabila007",
+    "location": "Khulna",
+    "city": "Sonadanga",
+    "productName": "Laptop Stand",
+    "price": 950
+  },
+  {
+    "id": 105,
+    "username": "fahim999",
+    "location": "Sylhet",
+    "city": "Zindabazar",
+    "productName": "USB Hub",
+    "price": 700
+  }
+]
