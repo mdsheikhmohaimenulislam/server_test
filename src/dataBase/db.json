@@ -1,12 +1,5 @@
 [
   {
-    "id": 101,
-    "name": "loi2",
-    "city": "RJE2",
-    "productName": "phone2",
-    "price": 5000
-  },
-  {
     "id": 102,
     "name": "loi2",
     "city": "RJE2",
@@ -20,29 +13,5 @@
     "city": "Agrabad",
     "productName": "Headphone",
     "price": 2500
-  },
-  {
-    "id": 104,
-    "username": "nabila007",
-    "location": "Khulna",
-    "city": "Sonadanga",
-    "productName": "Laptop Stand",
-    "price": 950
-  },
-  {
-    "id": 105,
-    "username": "fahim999",
-    "location": "Sylhet",
-    "city": "Zindabazar",
-    "productName": "USB Hub",
-    "price": 700
-  },
-  {
-    "id": 1778648205960,
-    "name": "loi",
-    "city": "RJE",
-    "productName": "phone",
-    "price": 500
-  },
-  { "id": 1778648320595, "name": "jk", "productName": "phone", "price": 5000 }
+  }
 ]
