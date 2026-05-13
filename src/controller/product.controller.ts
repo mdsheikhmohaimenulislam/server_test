@@ -6,6 +6,8 @@ export const productController = (
   req: IncomingMessage,
   res: ServerResponse,
 ) => {
+  console.log(req);
+
   const url = req.url;
   const method = req.method;
   //   product => product/1 => ['',"product",'1']
@@ -39,6 +41,19 @@ export const productController = (
       JSON.stringify({
         message: "Product retRived Successfully",
         data: product,
+      }),
+    );
+  }
+  //*..................POST Single product POST method..................
+  else if (method === "POST" && url === "/products") {
+    const body = req;
+    res.writeHead(200, {
+      "content-type": "application/json",
+    });
+    res.end(
+      JSON.stringify({
+        message: "Product retRived Successfully",
+        // data: product,
       }),
     );
   }
