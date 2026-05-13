@@ -38,5 +38,6 @@
     "city": "Zindabazar",
     "productName": "USB Hub",
     "price": 700
-  }
+  },
+  { "id": 1778648205960, "name": "loi", "price": 5000 }
 ]
