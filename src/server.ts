@@ -9,5 +9,5 @@ const server = createServer((req: IncomingMessage, res) => {
 });
 
 server.listen(config.port, () => {
-  console.log(`server the running on the port ${3000}`);
+  console.log(`server the running on the port ${config.port}`);
 });
