@@ -1,19 +1,17 @@
 [
   {
     "id": 101,
-    "username": "rahim123",
-    "location": "Rajshahi",
-    "city": "Naogaon",
-    "productName": "Wireless Mouse",
-    "price": 1200
+    "name": "loi2",
+    "city": "RJE2",
+    "productName": "phone2",
+    "price": 5000
   },
   {
     "id": 102,
-    "username": "karim456",
-    "location": "Dhaka",
-    "city": "Mirpur",
-    "productName": "Keyboard",
-    "price": 1800
+    "name": "loi2",
+    "city": "RJE2",
+    "productName": "phone2",
+    "price": 5000
   },
   {
     "id": 103,
@@ -39,5 +37,12 @@
     "productName": "USB Hub",
     "price": 700
   },
-  { "id": 1778648205960, "name": "loi", "price": 5000 }
+  {
+    "id": 1778648205960,
+    "name": "loi",
+    "city": "RJE",
+    "productName": "phone",
+    "price": 500
+  },
+  { "id": 1778648320595, "name": "jk", "productName": "phone", "price": 5000 }
 ]
